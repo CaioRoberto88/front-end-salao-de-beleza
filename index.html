@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ARQUIVOS EXTERNOS -->
+  <!-- CSS BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <!-- ICONS BOOSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+  <!-- JS BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"
+    defer></script>
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+  <!-- MEUS ARQUIVOS -->
+  <script src="js/script.js" defer></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Projeto 2</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a href="#" class="fw-bold nav-brand-cor"><img class="navbar-brand" src="img/logo.svg" alt="logo" />Salão de
+        Beleza</a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+        <strong class="fs-6 nav-menu">MENU</strong>
+        <span class="navbar-toggler-icon fs-4"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nossos-servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sessao-sobre-nos">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sessao-contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header id="header">
+    <div class="carousel slide text-center" id="ads" data-bs-ride="carousel">
+      <ul class="carousel-indicators">
+        <li class="active" data-bs-slide-to="0" data-bs-target="#ads"></li>
+        <li class="" data-bs-slide-to="1" data-bs-target="#ads"></li>
+        <li class="" data-bs-slide-to="2" data-bs-target="#ads"></li>
+      </ul>
+
+      <div class="carousel-inner carousel-fade">
+        <div class="carousel-item active" id="ads">
+          <img class="d-block w-100" src="./img/carousel/carousel-1.jpg" alt="descricao da img-1" />
+          <span class="carousel-caption carousel-bg-ads">
+            <h2 class="text-white fw-bold fs-1">Estética é bem estar!</h2>
+            <p>Você merece um momento para relaxar e cuidar de você</p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/carousel/carousel-2.jpg" alt="descricao da img-2" />
+          <span class="carousel-caption carousel-bg-ads">
+            <h2 class="text-white fw-bold fs-1">
+              Nossos produtos são de altíssima qualidade!
+            </h2>
+            <p>Nossa maior prioridade são os nossos clientes.</p>
+          </span>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/carousel/carousel-3.jpg" alt="descricao da img-3" />
+          <span class="carousel-caption carousel-bg-ads">
+            <h2 class="text-white fw-bold fs-1">
+              Temos profissionais qualificados prontos para cuidar de você!
+            </h2>
+            <p>
+              Nossa missão é deixar nossas clientes mais belas do que entrou.
+            </p>
+          </span>
+        </div>
+      </div>
+      <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#ads">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+      <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#ads">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+    </div>
+  </header>
+  <main id="nossos-servicos">
+    <div class="container" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+      <p class="servicos-titulo">linha invisível</p>
+      <h2 class="text-center my-5">NOSSOS SERVIÇOS</h2>
+      <div class="row g-5">
+        <div class="col-md-6 col-lg-6 col-xl-3 col-12">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-top img-servicos my-3" src="./img/servicos/maquiagem.jpg"
+                alt="descrição para acessibilidade" />
+              <h2 class="card-title">Maquiagem</h2>
+              <p class="card-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere rerum, odit tenetur molestiae soluta facilis eum
+                obcaecati perferendis explicabo harum voluptatem voluptates
+                molestias consequuntur asperiores id ipsa blanditiis fuga
+                maxime hic odio minus labore a nisi. Consequatur alias id
+                laborum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="./maquiagem.html"><span class="card-servicos-precos">Clique aqui</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 col-12">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-top img-servicos my-3" src="./img/servicos/manicure-pedicure.jpg"
+                alt="descrição para acessibilidade" />
+              <h2 class="card-title">Manicure e Pedicure</h2>
+              <p class="card-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere rerum, odit tenetur molestiae soluta facilis eum
+                obcaecati perferendis explicabo harum voluptatem voluptates
+                molestias consequuntur asperiores id ipsa blanditiis fuga
+                maxime hic odio minus labore a nisi. Consequatur alias id
+                laborum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="./manicure-pedicure.html"><span class="card-servicos-precos">Clique aqui</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 col-12">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-top img-servicos my-3" src="./img/servicos/cilius-posticos.jpg"
+                alt="descrição para acessibilidade" />
+              <h2 class="card-title">Cílios postiços</h2>
+              <p class="card-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere rerum, odit tenetur molestiae soluta facilis eum
+                obcaecati perferendis explicabo harum voluptatem voluptates
+                molestias consequuntur asperiores id ipsa blanditiis fuga
+                maxime hic odio minus labore a nisi. Consequatur alias id
+                laborum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="./cilios-posticos.html"><span class="card-servicos-precos">Clique aqui</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 col-12">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-top img-servicos my-3" src="./img/servicos/bronzeamento-artificial.jpg"
+                alt="descrição para acessibilidade" />
+              <h2 class="card-title">Bronzeamento Artificial</h2>
+              <p class="card-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere rerum, odit tenetur molestiae soluta facilis eum
+                obcaecati perferendis explicabo harum voluptatem voluptates
+                molestias consequuntur asperiores id ipsa blanditiis fuga
+                maxime hic odio minus labore a nisi. Consequatur alias id
+                laborum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="./bronzeamente-artificial.html"><span class="card-servicos-precos">Clique aqui</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section id="sessao-sobre-nos">
+    <div class="container">
+      <p class="servicos-titulo">linha invisível</p>
+      <h2 class="text-center my-5">SOBRE NÓS</h2>
+      <div class="row">
+        <div class="col-md-6 col-12" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In ullam
+            nostrum aspernatur est obcaecati cupiditate, culpa, dolor enim
+            repellat consequatur ab repellendus ipsum aliquam doloremque
+            facere. Nam est quod harum rerum, numquam quo! Totam porro ea
+            vitae, quas officia, expedita doloremque amet earum ad aliquid sed
+            molestias aliquam ipsum fugit exercitationem dolor eaque omnis?
+            Voluptas possimus eum, aspernatur, quisquam sint iste iusto nisi
+            illo, accusantium repellat laboriosam eaque inventore! Quo
+            exercitationem molestias explicabo. Odit unde dicta ratione ex
+            suscipit recusandae modi harum nulla, eos minima dignissimos,
+            commodi expedita necessitatibus temporibus nisi voluptates impedit
+            quisquam aperiam iusto exercitationem, eaque blanditiis itaque?
+          </p>
+        </div>
+        <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+          <img class="d-block m-auto w-100 h-75 rounded-1" src="./img/sobre/sobre-nos.jpg"
+            alt="img sobre nos descrição" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sessao-contato">
+    <div class="container" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+      <p class="servicos-titulo">linha invisível</p>
+      <h2 class="text-center my-5">CONTATO</h2>
+      <div class="row">
+        <div class="col-md-6 col-12 endereco-contato text-start">
+          <p class="fw-semibold">Nosso Endereço:</p>
+          <p>
+            <i class="bi-whatsapp"></i>
+            <a href="https://wa.me/5527999999999?text=Tenho%20interesse%20em%20agendar%20um%20horário%20com%20vocês.">Telefone:
+              (27)99999-9999</a>
+          </p>
+          <p>
+            <a href="mailto:salaodebeleza@gmail.com?subject=Agendar horário"><i class="bi-mailbox"></i> E-mail:
+              salaodebeleza@gmail.com</a>
+          </p>
+          <p>
+            <i class="bi bi-geo-alt"></i> Rua da beleza, Sala 12, Serra - ES
+          </p>
+        </div>
+        <div class="col-md-6 col-12">
+          <form class="needs-validation" action="##" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6 col-12">
+                <label class="form-label" for="nome">Nome</label>
+                <input class="form-control shadow-none border-0" type="text" name="nome" id="nome" placeholder="Nome"
+                  required />
+                <div class="valid-feedback">OK!</div>
+                <div class="invalid-feedback">Por favor insira seu nome.</div>
+              </div>
+              <div class="col-md-6 col-12">
+                <label class="form-label" for="nome">Telefone</label>
+                <input class="form-control shadow-none border-0" type="tel" name="telefone" id="telefone"
+                  placeholder="Telefone" required />
+                <div class="valid-feedback">OK!</div>
+                <div class="invalid-feedback">
+                  Por favor insera seu número de telefone.
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="email">E-mail</label>
+                <input class="form-control shadow-none border-0" type="email" name="email" id="email"
+                  placeholder="E-mail" required />
+                <div class="valid-feedback">OK!</div>
+                <div class="invalid-feedback">
+                  Por favor insira seu e-mail.
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="mensagem">Mensagem</label>
+                <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+                <div class="valid-feedback">OK!</div>
+                <div class="invalid-feedback">
+                  Por favor insira sua mensagem.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-form-contato d-block m-auto my-3" type="submit">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sessao-localizacao">
+    <p class="servicos-titulo mb-5">linha invisível</p>
+    <h2 class="text-center pb-3">Nossa Localização via Google Maps</h2>
+    <div class="map-contato" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+      <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+      <script>
+        (function () {
+          var setting = {
+            height: 480,
+            width: 3000,
+            zoom: 14,
+            queryString: "Serra, Espírito Santo, Brasil",
+            place_id: "ChIJrzZblqMfuAARCC7dERHZHFI",
+            satellite: false,
+            centerCoord: [-20.131184826807104, -40.30938500834179],
+            cid: "0x521cd91111dd2e08",
+            lang: "pt",
+            cityUrl: "/portugal/serra-97317",
+            cityAnchorText: "",
+            id: "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+            embed_id: "908025",
+          };
+          var d = document;
+          var s = d.createElement("script");
+          s.src = "https://1map.com/js/script-for-user.js?embed_id=908025";
+          s.async = true;
+          s.onload = function (e) {
+            window.OneMap.initMap(setting);
+          };
+          var to = d.getElementsByTagName("script")[0];
+          to.parentNode.insertBefore(s, to);
+        })();
+      </script>
+      <a href="https://1map.com/pt/map-embed">1 Map</a>
+    </div>
+  </section>
+
+  <footer class="shadow shadow-lg">
+    <div class="container text-center p-5">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <p>&copy;2023 todos direitos reservados</p>
+          <p>Salão de Beleza - MEI</p>
+          <p>Telefone: (27)99999-9999</p>
+          <p>CNPJ: 00.394.000/0000-00</p>
+          <p><a href="#">Políticas de privacidade</a></p>
+        </div>
+        <div class="col-md-6 col-12" id="footer-redes-sociais">
+          <h6>Nossas Redes Sociais</h6>
+          <a href="##"><i class="bi bi-facebook"></i></a>
+          <a href="##"><i class="bi bi-instagram"></i></a>
+          <a href="##"><i class="bi bi-youtube"></i></a>
+          <a href="##"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- AOS -->
+  <script src="./node_modules/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- SMOOTH SCROLL -->
+  <script src="./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+</body>
+
+</html>
