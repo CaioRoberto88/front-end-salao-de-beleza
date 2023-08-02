@@ -1,0 +1,19 @@
+.img-destaque {
+  border-radius: 20%;
+}
+
+.btn-agendar {
+  color: #fff;
+  background-color:#864b3d;
+  padding: 15px 10px;
+  transition: 0.3ms;
+}
+
+.btn-agendar:hover {
+  color: #fff;
+  background-color:#c3897d;
+}
+
+.img-descricao {
+  border-radius: 40%;
+}

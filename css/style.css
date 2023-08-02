@@ -1,0 +1,404 @@
+/* REGRA GERAL */
+* {
+  font-family: Helvetica;
+  letter-spacing: 0.2px;
+}
+
+body {
+  background-color: #d9b2ab;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: #fefefe;
+  font-weight: 700;
+}
+
+h2 {
+  color: #fefefe;
+  font-weight: bolder;
+}
+
+h6 {
+  color: #864b3d;
+  font-weight: bold;
+}
+
+p {
+  color: #fff;
+}
+
+/* NAV */
+
+.nav-brand-cor {
+  color: #864b3d;
+}
+
+nav {
+  background-color: #e4c8c4;
+  min-width: 390px;
+}
+
+.navbar-toggler {
+  border: 1px solid #d9b2ab;
+  background-color: #864b3d;
+}
+
+.nav-menu {
+  color: #d9b2ab;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #864b3d;
+}
+
+/* HEADER */
+
+#header {
+  width: 390px;
+}
+
+.carousel-inner .carousel-item img {
+  height: 90vh;
+}
+
+.carousel-bg-ads {
+  height: auto;
+  padding: 20px;
+  background-color: #c3897d;
+}
+
+/* SERVIÇOS */
+
+/* LINHA INVISIVEL ACIMA DE TODOS AS SESSOES DO SITE */
+
+.servicos-titulo {
+  text-decoration: overline 4px solid #864b3d;
+  height: 4px;
+  color: transparent;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+main {
+  height: auto;
+}
+
+.img-servicos {
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+}
+
+.card-title {
+  color: #d9b2ab;
+  font-weight: 900;
+}
+.card-subtitle {
+  color: #fff;
+}
+
+.card {
+  padding: 10px;
+  background-color: #864b3d;
+  border: transparent;
+  transition: 0.2ms;
+}
+
+.card:hover {
+  background-color: #c3897d;
+}
+
+.card-footer {
+  border: transparent;
+  background-color: transparent;
+}
+
+.card-servicos-precos {
+  font-size: 36px;
+  font-weight: bold;
+  color: #864b3d;
+  background-color: pink;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+/* SOBRE NOS */
+#sobre-nos {
+  background-color: #c3897d;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+section {
+  height: auto;
+}
+
+/* SESSAO CONTATO */
+
+#sessao-contato {
+  height: auto;
+  padding-top: 10px;
+}
+
+.endereco-contato {
+  text-align: center;
+}
+
+.bi-whatsapp {
+  color: #47c758;
+  font-size: 16px;
+}
+
+.bi-mailbox {
+  font-size: 16px;
+  color: #864b3d;
+}
+
+.bi-geo-alt {
+  font-size: 16px;
+  color: #864b3d;
+}
+
+label {
+  color: #864b3d;
+}
+
+.form-control {
+  color: #864b3d;
+}
+
+.form-control::placeholder {
+  color: #d9b2ab;
+}
+
+.btn-form-contato {
+  width: 100%;
+  color: #fefefe;
+  background-color: #864b3d;
+}
+
+.btn-form-contato:hover {
+  color: #fefefe;
+  background-color: #c3897d;
+}
+
+/* SESSAO LOCALIZAÇÂO GOOGLE MAPS */
+
+#sessao-localizacao {
+  height: 520px;
+  margin-top: 50px;
+}
+
+/* FOOTER */
+
+footer {
+  height: auto;
+  width: 390px;
+  margin-top: 20px;
+  padding-top: 120px;
+  background-color: #c4857e;
+}
+
+footer,
+h6 {
+  margin-top: 30px;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-youtube,
+.bi-tiktok {
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+.bi-facebook {
+  color: #4267b2;
+}
+
+.bi-instagram {
+  color: #833ab4;
+}
+
+.bi-youtube {
+  color: #ff0000;
+}
+
+.bi-tiktok {
+  color: #000;
+}
+
+/* AREA DE RESPONSIVIDADE */
+@media (max-width: 575px) {
+  body {
+    min-width: 375px;
+    max-width: 575px;
+  }
+
+  nav,
+  header {
+    max-width: 103%;
+    min-width: 103%;
+  }
+
+  /* SESSAO SOBRE NOS */
+  #sessao-sobre-nos {
+    height: 768px;
+  }
+
+  /* SESSAO CONTATO */
+  .btn-form-contato {
+    color: #fefefe;
+    background-color: #864b3d;
+  }
+
+  /* SESSAO LOCALIZAÇÂO GOOGLE MAPS */
+
+  #sessao-localizacao {
+    max-width: 103%;
+    min-width: 103%;
+    margin-top: 50px;
+  }
+
+  /* FOOTER */
+  footer {
+    max-width: 103%;
+    min-width: 103%;
+  }
+}
+
+@media (min-width: 576px) {
+  /* CAROUSEL */
+  #header {
+    width: 100%;
+  }
+
+  /* SESSAO SOBRE NOS */
+  #sessao-sobre-nos {
+    height: 768px;
+  }
+
+  /* SESSAO CONTATO */
+  .btn-form-contato {
+    width: 100%;
+    color: #fefefe;
+    background-color: #864b3d;
+  }
+
+  /* FOOTER */
+  footer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* NAV */
+  .nav-link:after {
+    content: "";
+    display: block;
+    height: 0px;
+    background-color: #864b3d;
+    transition: all ease-in-out 0.3ms;
+  }
+
+  .nav-link:hover:after {
+    height: 4px;
+  }
+
+  /* CAROUSEL */
+  #header {
+    width: 100%;
+  }
+
+  /* SESSAO SERVIÇOS */
+  .card-title {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+
+  /* SESSAO LOCALIZAÇÂO GOOGLE MAPS */
+
+  #sessao-localizacao {
+    margin-top: 50px;
+  }
+
+  /* FOOTER */
+  footer {
+    width: 100%;
+  }
+
+  #footer-redes-sociais {
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* SESSAO SERVIÇOS */
+
+  .card-title {
+    font-size: 24px;
+    padding: 15px 0;
+  }
+
+  .card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* CAROUSEL */
+  #header {
+    width: 100%;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 600px;
+  }
+
+  /* SESSAO SERVIÇOS */
+
+  .card-title {
+    font-size: 14px;
+    padding: 15px 0;
+  }
+
+  .card {
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-servicos-precos {
+    font-size: 24px;
+    font-weight: bold;
+    color: #864b3d;
+    background-color: pink;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+
+  /* SESSAO CONTATO */
+  .btn-form-contato {
+    width: 20%;
+    color: #fefefe;
+    background-color: #864b3d;
+  }
+}
